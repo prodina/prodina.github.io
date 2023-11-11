@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLUFF Grooming</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-white text-black ">
+
+  <header class="mx-auto container bg-white p-4 sm:py-4 flex justify-between items-center">
+    <div>
+        <img src="logo.svg" alt="FLUFF Logo" class="h-8">
+        </div>
+        <nav class="hidden lg:block">
+        <ul class="lg:flex space-x-6">
+        <li>
+        <a href="#about" class="hover:text-pink-900 focus:ring- focus:ring-blue-300 focus:outline-none">About us</a>
+        </li>
+        <li>
+        <a href="#services" class="hover:text-pink-900 focus:ring-4 focus:ring-blue-300 focus:outline-none">Specialists</a>
+        </li>
+        <li>
+        <a href="#specialists" class="hover:text-pink-900 focus:ring-4 focus:ring-blue-300 focus:outline-none">Services</a>
+        </li>
+        <li>
+        <a href="#results" class="hover:text-pink-900 focus:ring-4 focus:ring-blue-300 focus:outline-none">Results</a>
+        </li>
+        </ul>
+        </nav>
+        <div class="hidden lg:flex items-center space-x-4">
+        <a href="tel:+37250008000" class="hover:text-pink-900 focus:ring-4 focus:ring-blue-300" >+372 5000 8000</a>
+        <p>Narva mnt 150-106</p>
+        <button type="button" class="text-white bg-pink-500 hover:bg-pink-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Book Now</button>
+                </div>
+        </div>
+    </header>
+    <main class=" flex flex-col items-center">
+
+    <!-- FIRST BLOCK -->
+      <section class="container p-10 sm:py-16 sm:px-0 flex flex-col w-full sm:py-16">
+      <div class="flex justify-between flex-wrap relative">
+        <h1 class="text-xl font-bold text-left my-8 py-4 mb-2 md:text-6xl">Place where we take care <br> of your fluffy friend</h1>
+        <div class="absolute bottom-4 right-0 hidden lg:block">
+          <div class="flex items-center justify-between sm:space-x-4">
+            <p class="text-3xl sm:text-4xl">4.9</p>
+            <img class="h-8 w-8" src="icons/star-icon.svg" alt="Star Icon" class="w-full">
+          </div>
+          <p class="text-base md:text-lg hover:underline">41K Reviews</p>
+        </div>
+      </div>
+    
+
+      <div class="flex flex-col md:grid grid-rows-1 grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-4 md:h-96">
+        <!-- PURPLE CARD -->
+        <div class="row-span-full bg-purple-400 p-4 rounded-xl flex flex-col justify-between">
+          <p class="text-lg text-white font-semibold mb-20 md:mb-2">Your pet will get everything <br> necessary for a full and
+            happy life</p>
+          <button class="w-full bg-white text-black px-8 py-2 rounded-full hover:text-purple-700 focus:ring-4 focus:ring-blue-300">Make an appointment</button>
+        </div>
+        <!-- PINK CARD -->
+        <div class="bg-pink-400 p-4 rounded-xl flex flex-col justify-between">
+          <p class="text-lg text-white font-semibold mb-20 md:mb-2">Online consultation <br> with a master</p>
+          <div class="flex items-center w-auto gap-x-8 justify-between">
+            <p class="text-white">Reception for any questions</p>
+            <button class="bg-white text-pink-400 px-8 py-1 rounded-full hover:text-pink-900">→</button>
+          </div>
+        </div>
+        <!-- YELLOW CARD -->
+        <div class="col-start-2 row-start-2 bg-yellow-200 p-4 rounded-xl relative">
+          <p class="text-6xl mb-12 md:mb-4 md:text-4xl">-15%</p>
+          <p>off Edgard Cooper <br> food and treats</p>
+          <img class="absolute bottom-0 right-0 hidden lg:block h-32 w-52" src="petscard.png" alt="Pets Card Photo"
+            class="w-full">
+        </div>
+        <div class="row-span-full col-start-3 row-start-1 bg-white rounded-xl max-h-full">
+          <img src="cutedogphoto.png" alt="Cute Dog Photo" class="h-52 w-full rounded-xl md:w-full md:h-full object-cover">
+        </div>
+      </div>
+
+      </section>
+        
+    <!-- ABOUT US -->
+      <section class="container p-10 flex flex-col w-full sm:py-16 sm:px-0">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <div>
+          <h2 class="text-3xl sm:text-5xl mb-4 sm:mb-12">We give care to those who love just like that</h2>
+          <p class="mb-4 sm:mb-8 text-gray-600">Step into our sleek and stylish studio, where our expert team caters to your
+            pet's every need, offering a diverse array of services from express shedding to luxurious spa treatments.
+          </p>
+          <p class="text-gray-600">Our dedicated professionals ensure a pampering experience for your furry friend,
+            creating a relaxing atmosphere that goes beyond mere grooming.</p>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-purple-50 p-8 rounded-lg flex flex-col justify-between">
+            <p class="text-3xl sm:text-4xl text-purple-400 font-bold">10+</p> <br>
+            <p class="text-sm sm:text-md">years of successful work in the industry</p>
+          </div>
+          <div class="bg-purple-50 p-8 rounded-lg flex flex-col justify-between">
+            <p class="text-3xl sm:text-4xl text-purple-400 font-bold">7+</p> <br>
+            <p class="text-sm sm:text-md">experienced professionals</p>
+          </div>
+          <div class="bg-purple-50 p-8 rounded-lg flex flex-col justify-between">
+            <p class="text-3xl sm:text-4xl text-purple-400 font-bold">1000+</p> <br>
+            <p class="text-sm sm:text-md">successful procedures</p>
+          </div>
+          <div class="bg-purple-50 p-8 rounded-lg flex flex-col justify-between">
+            <p class="text-3xl sm:text-4xl text-purple-400 font-bold">5000+</p> <br>
+            <p class="text-sm sm:text-md">happy pet owners from Estonia</p>
+          </div>
+        </div>
+      </div>
+     </section>
+  
+    <!-- OUR TEAM -->
+      <section class="container p-10 flex flex-col w-full bg-white flex flex-col w-full sm:px-0 sm:py-16">
+      <div>
+        <div class="flex flex-col w-full items-center mb-8 sm:py-10">
+          <h2 class="text-3xl sm:text-5xl mb-3 text-center">Meet Our Team</h2>
+          <p class="text-lg text-gray-600 text-center">We excels in pet care and styling, delivering top-notch
+            services with love and expertise.</p>
+        </div>
+        <ul role="list" class="grid grid-cols-2 gap-y-6 sm:gap-x-4 sm:gap-y-6 sm:grid-cols-3 md:grid-cols-4 md:gap-y-8 md:gap-x-8 xl:col-span-4">
+
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-14 w-14 rounded-full md:w-16 md:h-16"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt="">
+              <div>
+                <h3 class="text-sm sm:text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-xs sm:text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-14 w-14 rounded-full md:w-16 md:h-16"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt="">
+              <div>
+                <h3 class="text-sm sm:text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-xs sm:text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-14 w-14 rounded-full md:w-16 md:h-16"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt="">
+              <div>
+                <h3 class="text-sm sm:text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-xs sm:text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-14 w-14 rounded-full md:w-16 md:h-16"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt="">
+              <div>
+                <h3 class="text-sm sm:text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-xs sm:text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-14 w-14 rounded-full md:w-16 md:h-16"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt="">
+              <div>
+                <h3 class="text-sm sm:text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-xs sm:text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-14 w-14 rounded-full md:w-16 md:h-16"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt="">
+              <div>
+                <h3 class="text-sm sm:text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-xs sm:text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-14 w-14 rounded-full md:w-16 md:h-16"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt="">
+              <div>
+                <h3 class="text-sm sm:text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-xs sm:text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-14 w-14 rounded-full md:w-16 md:h-16"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt="">
+              <div>
+                <h3 class="text-sm sm:text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-xs sm:text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </section>
+  
+    <!-- SERVICES -->
+        <section class="container p-10 flex flex-col sm:py-16 sm:px-0">
+            <h2 class="mb-8 text-gray-900 text-3xl sm:text-5xl">Service Categories</h2>
+            <div class="flex flex-col md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 md:gap-4">
+                <div class="bg-pink-100 p-4 rounded-md relative h-auto max-w-full">
+                    <div class="flex items-center justify-between">
+                        <!-- PINK CARD -->
+                    <h3 class="text-xl text-pink-600 font-bold mb-2">For Cats</h3>
+                    <img src="icons/cat-icon.svg" alt="Dog Icon" class="h-10">
+                    </div>
+                    <ul class="flex flex-col gap-2 w-1/2 md:w-auto">
+                        <li>— Comprehensive care</li>
+                        <li>— Haircut without washing</li>
+                        <li>— Combing without washing</li>
+                    </ul>
+                    <p class="absolute bottom-4 right-4 font-semibold mt-4 text-pink-900">Prices from 30€</p>
+                </div>
+
+                <div class="col-start-1 bg-purple-100 p-4 rounded-md relative md:row-start-2 md:col-start-1 mt-4 md:mt-0">
+                    <div>
+                    <div class="flex items-center justify-between">
+                        <!-- PURPLE CARD -->
+                        <h3 class="text-xl text-purple-600 font-bold mb-2">Veterinarian</h3>
+                        <img src="icons/plus-icon.svg" alt="Dog Icon" class="h-10">
+                    </div>
+                    <ul class="flex flex-col gap-2 w-1/2 md:w-auto">
+                        <li>— Consultations</li>
+                        <li>— Tests and examinations</li>
+                        <li>— Chipping</li>
+                    </ul>
+                    </div>
+                    <p class="absolute bottom-4 right-4 font-semibold mt-4 text-purple-900">Prices from 20€</p>
+                </div>
+
+                <!-- YELLOW CARD -->
+                <div class="col-start-2 bg-yellow-100 p-4 rounded-md relative lg:row-span-2 lg:col-start-2 mt-4 lg:mt-0">
+                    <div class="flex items-center justify-between">
+                    <h3 class="text-xl text-yellow-600 font-bold mb-2">For Dogs</h3>
+                    <img src="icons/dog-icon.svg" alt="Dog Icon" class="h-10">
+                    </div>
+                    <ul class="flex flex-col gap-2 w-1/2 md:w-auto">
+                        <li>— Comprehensive care</li>
+                        <li>— Hygienic grooming</li>
+                        <li>— Dog washing + KUG</li>
+                        <li>— Ozone bath</li>
+                        <li>— Milk bath</li>
+                        <li>— Mask according to hair type</li>
+                        <li>— Gland hygiene</li>
+                        <li>— Antiparasitic treatment</li>
+                        <li>— Hair type mask from Iv San Bernard</li>
+                    </ul>
+                    <p class="absolute bottom-4 right-4 font-semibold mt-4 text-yellow-900">Prices from 30€</p>
+                </div>
+
+            </div>
+        </section>
+
+    <!-- GALLERY RESULTS -->
+      <section class="container p-10 flex flex-col h-auto w-full sm:px-0 sm:py-16">
+      <div>
+        <div class="flex flex-col w-full items-center sm:py-10 mb-4">
+          <h2 class="text-3xl sm:text-5xl mb-3 text-center">Let's see how much prettier the pets are</h2>
+          <p class="text-lg text-gray-600 text-center">For each pet, we select an individual style and approach.
+          </p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="grid gap-4">
+            <div><img src="results/pet1.jpg" alt="Pet 1" class="h-full max-w-full rounded-lg object-cover"></div>
+            <div><img src="results/pet2.jpg" alt="Pet 2" class="h-full max-w-full rounded-lg object-cover"></div>
+            <div><img src="results/pet3.jpg" alt="Pet 3" class="h-full max-w-full rounded-lg object-cover"></div>
+          </div>
+          <div class="grid gap-4">
+            <div><img src="results/pet4.jpg" alt="Pet 4" class="h-full max-w-full rounded-lg object-cover"></div>
+            <div><img src="results/pet5.jpg" alt="Pet 5" class="h-full max-w-full rounded-lg object-cover"></div>
+            <div><img src="results/pet6.jpg" alt="Pet 6" class="h-full max-w-full rounded-lg object-cover"></div>
+          </div>
+          <div class="grid gap-4">
+            <div><img src="results/pet7.jpg" alt="Pet 7" class="h-full max-w-full rounded-lg object-cover"></div>
+            <div><img src="results/pet8.jpg" alt="Pet 8" class="h-full max-w-full rounded-lg object-cover"></div>
+            <div><img src="results/pet9.jpg" alt="Pet 9" class="h-full max-w-full rounded-lg object-cover"></div>
+          </div>
+          <div class="grid gap-4">
+            <div><img src="results/pet2.jpg" alt="Pet 2" class="h-full max-w-full rounded-lg object-cover"></div>
+            <div><img src="results/pet1.jpg" alt="Pet 1" class="h-full max-w-full rounded-lg object-cover"></div>
+            <div><img src="results/pet10.jpg" alt="Pet 10" class="h-full max-w-full rounded-lg object-cover"></div>
+          </div>
+        </div>
+
+      </div>
+      </section>
+
+    <!-- BOOKING FORM -->
+        <section class="container p-10 flex flex-col h-auto w-full sm:px-0 sm:py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <!-- LEFT PART -->
+                <div class="flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl mb-4 sm:text-4xl">Our phone number</h3>
+                        <div class="flex items-center space-x-4 mb-8">
+                            <img src="icons/phone-icon.svg" alt="Phone Icon" class="h-10">
+                            <a href="tel:+37250008000" class="hover:text-pink-900 focus:ring-blue-300" >+372 5000 8000</a>
+                        </div>
+               
+        
+                        <h3 class="text-2xl mb-4 sm:text-4xl">Our address</h3>
+                        <div class="flex items-center space-x-4 mb-8">
+                            <img src="icons/map-icon.svg" alt="Map Icon" class="h-10">
+                            <p class="text-lg">Tartu mnt 104-76</p>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <h3 class="text-2xl mb-4 sm:text-4xl">We're happy to speak with you</h3>
+                        <div class="flex space-x-4">
+                        <img src="icons/tg-icon.svg" alt="Telegram Icon" class="h-12">
+                        <img src="icons/wa-icon.svg" alt="WhatsApp Icon" class="h-12">
+                        <img src="icons/inst-icon.svg" alt="Instagram Icon" class="h-12">
+                        </div>
+                    </div>
+ 
+                </div>
+    
+                <!-- FORM -->
+                <div>
+                    <h2 class="text-2xl text-pink-500 mb-6 sm:text-4xl">Application Form</h2>
+
+                        <form>
+
+                            <div class="grid md:grid-cols-2 md:gap-4">
+                                 <!-- NAME -->
+                                <div class="mb-6">
+                                    <label for="text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
+                                    <input type="floating_first_name" id="floating_first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your name" required>
+                                  </div>
+                                  <div class="mb-6">
+                                    <!-- LAST NAME -->
+                                    <label for="text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Last name</label>
+                                    <input type="floating_last_name" id="floating_last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your last name" required>
+                                  </div>
+                              </div>
+                              <div class="grid md:grid-cols-2 md:gap-4">
+                                <div class="mb-6">
+                                    <!-- PHONE -->
+                                    <label for="number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number</label>
+                                    <input type="number" id="phone_number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="+372 5000 8000" required>
+                                  </div>
+
+                                  <div class="mb-6">   
+                                        <!-- SERVICES -->
+                                        <label for="services" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select a service</label>
+                                        <select id="services" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                        <option selected>Choose a service</option>
+                                        <option value="DG">Dog Grooming</option>
+                                        <option value="CG">Cat Grooming</option>
+                                        <option value="OZ">Ozon Bath</option>
+                                        <option value="MB">Milk Bath</option>
+                                        </select>
+                                  </div>
+                              </div>
+
+                              <div class="grid md:grid-cols-2 md:gap-4">
+                                <div class="mb-6">
+                                    <!--DATE -->
+                                    <div>
+                                        <label for="text" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select a date</label>
+                                        <input type="date" id="date" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select a date" required>
+                                    </div> 
+                                  </div>
+                                  <div class="mb-6">
+                                    <!-- SPECIALIST -->
+                                    <label for="specialists" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select a specialist</label>
+                                    <select id="specialists" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                    <option selected>Select a specialist</option>
+                                    <option value="ML">Maria Ladina</option>
+                                    <option value="RP">Roman Popov</option>
+                                    <option value="MW">Tatjana Weber</option>
+                                    <option value="ML">Mikhail Lodov</option>
+                                    </select>
+                                  </div>
+                              </div>
+
+        
+                        <div class="mb-4">
+                        <!-- MESSAGE -->
+                        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+                        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
+                        </div>
+                        <button type="submit" class="text-white w-full bg-pink-500 hover:bg-pink-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Submit</button>
+                    
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- FOOTER -->
+        <footer class="container flex flex-col text-gray-600 p-4 justify-between">
+            <div class="flex justify-between items-center">
+                <p><a href="#" class="text-gray-600 hover:underline text-sm sm:text-lg">Privacy Policy</a></p>
+                <p class="text-sm sm:text-lg">&copy; 2023 FLUFF | All Rights Reserved</p>
+                <p><a href="#" class="text-gray-600  hover:underline text-sm sm:text-lg">Public Offer</a></p>
+            
+            </div>
+        </footer>
+
+
+    </main>
+    
+
+
+
+</body>
+
+</html>
